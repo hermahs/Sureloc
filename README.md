@@ -28,25 +28,113 @@ SureLoc is licensed under the MIT License. See `LICENSE.md` for more information
 
 To get started with SureLoc, follow these steps:
 
-1. Clone the repository:
+### Needed Components
 
-```bash
-git clone https://github.com/hermahs/sureloc.git
-```
+Before you can use SureLoc, you'll need to gather the following components:
 
-2. Set up the hardware:
+#### Control Box Components
 
-Connect the RFID reader and the Arduino microcontroller according to the instructions in the "hardware" folder. You will also need to program the microcontroller with the code in the "firmware" folder.
+| Component            | Quantity |
+|----------------------|---------:|
+| Arduino Uno v3       |        1 |
+| RC522 RFID Reader    |        1 |
+| 12v Power Adapter    |        1 |
+| Buck Converter       |        1 |
+| 100k ohm resistor    |        1 |
+| SD card module        |        1 |
+| SD card              |        1 |
+| Breadboard           |        1 |
+| Barrel jack          |        1 |
+| 16x2 LCD screen      |  (optional) |
+| Rotary encoder       |  (optional) |
 
-3. Install the software:
+#### Lending Module Components
 
-The software is written in C++ and can be compiled using the Arduino IDE or any other compatible software. Simply open the "software.ino" file in the Arduino IDE and upload it to the microcontroller.
+| Component                  | Quantity |
+|----------------------------|---------:|
+| Arduino Pro Micro          |        1 |
+| Servo                      |        1 |
+| Small push press button    |        2 |
+| Transistors                |        2 |
+| 10k ohm resistor           |        2 |
+| 1k ohm resistor            |        2 |
+| Breadboard                 |        1 |
+| Loadcell 5kg               |  (optional) x 4 |
+| Loadcell amplifier         |  (optional) x 4 |
 
-4. Test the system:
+#### Parts Needed to be Printed
 
-Use the RFID reader to scan the SureLocs and test the borrowing and lending functionality. You can also view the borrowing and lending history by connecting the microcontroller to a computer and opening the serial monitor.
+The following parts need to be 3D printed or laser cut:
 
-That's it! You should now be able to use the SureLoc system locally, and start testing and developing new features. Please note that this is a student project and may not be suitable for production use without additional setup and configuration.
+##### Shelf module
+
+| Part           | Quantity |
+|----------------|---------:|
+| Frame Left     |        1 |
+| Frame Right    |        1 |
+| Lock Container    |     1 |
+| Moon lock      |        1 |
+| Gears          |        2 |
+| Frame Rails    |        4 |
+| Drawer Rails   |        4 |
+| Drawer       |          2 |
+| Drawer lock holder |    2 |
+| Clips Large    |        2 |
+| Clips Small    |        2 |
+| Breadboard holder | 1 |
+
+
+##### Control box
+
+| Part           | Quantity |
+|----------------|---------:|
+| Top hull     |        1 |
+| Bottom plate    |        1 |
+| Front plate    |     1 |
+| Breadboard holder | 1 |
+| RFID card reader | 1 |
+
+Note that the box parts can also be laser cut in wood if you have the capability.
+
+Please note that these components are not included in the SureLoc package and must be acquired separately.
+
+## Assembly of the control box and shelf module
+
+### Shelf Module Assembly Guide
+
+1. Insert the clips into one side of the frame.
+2. If you are using load cells, screw them into the frame with a little bit of space between them.
+3. Insert the servo and moon lock into the lock container.
+4. Screw the gears to the servo and moon lock.
+5. Combine the frames with the lock container in the middle.
+6. Add the rails to the frames.
+7. Assemble the drawers.
+8. Connect the wires and add the breadboard to the breadboard holder.
+
+### Control Box Assembly Guide
+
+1. Add the breadboard holder to the base plate.
+2. Screw the RFID card reader into its holder on the front plate.
+3. Attach the screen and rotary encoder to the front plate.
+4. Add the buck converter and barrel jack for power.
+5. Assemble the top hull over the base plate and screw together.
+
+Note: This is a general guide for assembly and may not include all necessary steps.
+
+## Assembly of the electrical systems
+
+For the assembly of the electrical system, see the images below:
+
+
+
+## Installing the Software
+
+Once you have all the necessary components, you can install the SureLoc software on your Arduino microcontroller. To do this, follow these steps:
+
+1. Download the SureLoc code from the GitHub repository.
+2. Open the code in the Arduino IDE.
+3. Connect the microcontroller to your computer via USB.
+4. Upload the code to the microcontroller using the Arduino IDE.
 
 ## Support
 
