@@ -34,7 +34,7 @@ To get started with SureLoc, follow these steps:
 git clone https://github.com/hermahs/sureloc.git
 ```
 
-. Set up the hardware:
+2. Set up the hardware:
 
 Connect the RFID reader and the Arduino microcontroller according to the instructions in the "hardware" folder. You will also need to program the microcontroller with the code in the "firmware" folder.
 
