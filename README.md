@@ -125,6 +125,12 @@ Note: This is a general guide for assembly and may not include all necessary ste
 
 For the assembly of the electrical system, see the images below:
 
+### Control Box
+
+![Control Box Diagram](controlbox.png)
+
+### Shelf module
+![Shelf Module Diagram](shelf module.png)
 
 
 ## Installing the Software
