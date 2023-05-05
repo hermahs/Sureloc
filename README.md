@@ -127,10 +127,10 @@ For the assembly of the electrical system, see the images below:
 
 ### Control Box
 
-![Control Box Diagram](controlbox.png)
+![Control Box Diagram](ControlBox Diagram.png)
 
 ### Shelf module
-![Shelf Module Diagram](shelf module.png)
+![Shelf Module Diagram](shelfModule.png)
 
 
 ## Installing the Software
