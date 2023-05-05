@@ -127,10 +127,11 @@ For the assembly of the electrical system, see the images below:
 
 ### Control Box
 
-![Control Box Diagram](ControlBox Diagram.png)
+[Control Box Diagram](https://github.com/hermahs/Sureloc/blob/724dfc568ab8b7403ac2a49ec040952a4f51c85d/ControlBox%20Diagram.png)
 
 ### Shelf module
-![Shelf Module Diagram](shelfModule.png)
+
+[Shelf Module Diagram](https://github.com/hermahs/Sureloc/blob/724dfc568ab8b7403ac2a49ec040952a4f51c85d/ShelfModule.png)
 
 
 ## Installing the Software
